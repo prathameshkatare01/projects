@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MGNREGA</string>
+
+    <string name="admin">व्यवस्थापक</string>
+    <string name="worker">मज़दूर</string>
+    <string name="enter_worker_details">कार्यकर्ता विवरण दर्ज करें</string>
+    <string name="user_name">उपयोगकर्ता नाम</string>
+    <string name="adhar_no">आधार नं</string>
+    <string name="age">उम्र</string>
+    <string name="next">आगे</string>
+    <string name="capture">फोटो ले</string>
+    <string name="adhar_cardno">आधार कार्ड नं</string>
+    <string name="present_days_this_week">उपस्थिति दिन(इस सप्ताह)</string>
+    <string name="absent_days_this_week">अनुपस्थित दिन(इस सप्ताह)</string>
+    <string name="total_salary_this_week">पूरी तनख्वा(इस सप्ताह)</string>
+<string name="ok">ठीक</string>
+    <string name="add_worker">मज़दूर जोड़ें</string>
+    <string name="check_in">चेक इन</string>
+    <string name="check_out">चेक आउट</string>
+    <string name="status">जानकारी</string>
+    <string name="admin_id">व्यवस्थापक आईडी</string>
+    <string name="password">पासवर्ड</string>
+    <string name="removeworker">मज़दूर को हटा दें</string>
+    <string name="remove">इसे हटा दो</string>
+    <string name="done">ठीक</string>
+    <string name="language">भाषा</string>
+    <string name="logout">लॉग आउट करें</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="exit">बाहर जाएं</string>
+    <string name="welcome">स्वागत हे</string>
+    <string name="more">अधिक</string>
+    <string name="salary_per_hour">प्रति घंटे वेतन</string>
+    <string name="change">बदल दें</string>
+    <string name="enter_new_salary_per_hour">प्रति घंटे नया वेतन दर्ज करें</string>
+    <string name="enter">दर्ज</string>
+    <string name="signup">साइन अप करें</string>
+    <string name="enter_new_user_id">नई उपयोगकर्ता आईडी दर्ज करें</string>
+    <string name="enter_new_password">नया पासवर्ड दर्ज करें</string>
+    <string name="re_enter_password">पासवर्ड फिर से दर्ज करें</string>
+    <string name="confirm">पुष्टि करें</string>
+    <string name="Adhar_No">आधार नं</string>
+    <string name="go">आगे बढ़ें</string>
+    <string name="Home">मुख्य पृष्ठ</string>
+    <string name="enter_state_name">राज्य का नाम दर्ज करें</string>
+    <string name="enter_state_code">राज्य कोड दर्ज करें</string>
+    <string name="enter_salary_for_state">राज्य का वेतन दर्ज करें</string>
+    <string name="proceed">
+जारी रखें</string>
+    <string name="admin_details">
+व्यवस्थापक विवरण</string>
+    <string name="enter_email_id">ईमेल आईडी दर्ज करें</string>
+    <string name="enter_password">पास वर्ड दर्ज करें</string>
+    <string name="salary">वेतन</string>
+    <string name="see_data">डेटा देखें</string>
+    <string name="mail_data">डेटा भेजें</string>
+    <string name="enter_date_dd_mm_yyyy">
+दिनांक दर्ज करें (dd-mm-yyyy)</string>
+    <string name="get">प्राप्त</string>
+    <string name="back">वापस</string>
+    <string name="jobcardno">जॉब कार्ड नं</string>
+    <string name="email_id">
+ईमेल आईडी</string>
+    <string name="present_days">उपस्थिति दिन</string>
+    <string name="total_salary">पूरी तनख्वा</string>
+    <string name="home">मुख्य पृष्ठ</string>
+</resources>

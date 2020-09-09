@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    tools:context=".state">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/statename"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView11"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/enter_state_name"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/statecode"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statename"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/enter_state_code"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/salarytext"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statecode"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/enter_salary_for_state"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/proceed1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/salarytext"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp"
+
+        android:background="@drawable/btn_rounded"
+        android:text="@string/proceed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+</RelativeLayout>

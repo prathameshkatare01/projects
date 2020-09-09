@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    tools:context=".Main7Activity">
+
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:drawableStart="@drawable/ic_person"
+        android:ems="10"
+        android:hint="@string/email_id"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText6"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp "
+        android:drawableStart="@drawable/ic_lock_black_24dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/login"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+</RelativeLayout>

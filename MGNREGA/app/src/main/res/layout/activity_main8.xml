@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    tools:context=".Main8Activity">
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_rounded"
+        android:shadowColor="#FFEB3B"
+        android:text="@string/add_worker"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <Button
+        android:id="@+id/removebtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/removeworker"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/statusbtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/removebtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/status"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/logic"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statusbtn"
+        android:layout_alignLeft="@id/statusbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/more"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logic"
+        android:layout_alignLeft="@id/logic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/logout"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+</RelativeLayout>
